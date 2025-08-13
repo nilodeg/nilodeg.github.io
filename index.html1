@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meine Mods</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #1a1a1a; color: #f2f2f2; margin:0; padding:0;}
+        header { background-color: #111; padding: 20px; text-align: center;}
+        header h1 { margin:0; color: #ff4c4c;}
+        nav { display:flex; justify-content:center; background:#222; padding:10px;}
+        nav a { color:#f2f2f2; margin:0 15px; text-decoration:none; }
+        nav a:hover { color:#ff4c4c; }
+        section { padding:40px; max-width:1000px; margin:auto;}
+        h2 { color:#ff4c4c; }
+        .mod { display:flex; flex-wrap:wrap; margin-bottom:30px; }
+        .mod img { width:200px; height:120px; object-fit:cover; margin-right:20px; border-radius:10px;}
+        .mod-content { max-width:700px; }
+        .btn { display:inline-block; padding:10px 20px; background:#ff4c4c; color:#fff; border:none; border-radius:5px; text-decoration:none; margin-top:10px;}
+        .btn:hover { background:#e03b3b; }
+        footer { background:#111; text-align:center; padding:20px; margin-top:40px;}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meine Mods</h1>
+    </header>
+
+    <nav>
+        <a href="#fivem">FiveM Mods</a>
+        <a href="#ragemp">RageMP Mods</a>
+    </nav>
+
+    <section id="fivem">
+        <h2>FiveM Mods</h2>
+        <div class="mod">
+            <img src="images/fivem1.jpg" alt="FiveM Mod 1">
+            <div class="mod-content">
+                <h3>Mod Name 1</h3>
+                <p>Beschreibung von Mod 1 für FiveM.</p>
+                <a href="downloads/fivem1.zip" class="btn">Download</a>
+            </div>
+        </div>
+        <div class="mod">
+            <img src="images/fivem2.jpg" alt="FiveM Mod 2">
+            <div class="mod-content">
+                <h3>Mod Name 2</h3>
+                <p>Beschreibung von Mod 2 für FiveM.</p>
+                <a href="downloads/fivem2.zip" class="btn">Download</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="ragemp">
+        <h2>RageMP Mods</h2>
+        <div class="mod">
+            <img src="images/ragemp1.jpg" alt="RageMP Mod 1">
+            <div class="mod-content">
+                <h3>Mod Name 1</h3>
+                <p>Beschreibung von Mod 1 für RageMP.</p>
+                <a href="downloads/ragemp1.zip" class="btn">Download</a>
+            </div>
+        </div>
+        <div class="mod">
+            <img src="images/ragemp2.jpg" alt="RageMP Mod 2">
+            <div class="mod-content">
+                <h3>Mod Name 2</h3>
+                <p>Beschreibung von Mod 2 für RageMP.</p>
+                <a href="downloads/ragemp2.zip" class="btn">Download</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2025 Meine Mods. Alle Rechte vorbehalten.
+    </footer>
+</body>
+</html>
